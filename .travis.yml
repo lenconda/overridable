@@ -15,3 +15,7 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+before_install:
+  - unset CI
+script:
+  - npm run test
