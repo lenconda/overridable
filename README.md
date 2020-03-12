@@ -4,9 +4,9 @@ Make JavaScript overridable.
 
 # TODO
 
-- [] Unit test support
-- [] ES 2015 support
-- [] NPM registry
+- [ ] Unit test support
+- [ ] ES 2015 support
+- [ ] NPM registry
 
 # Issues
 
