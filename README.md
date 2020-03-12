@@ -10,7 +10,7 @@ Make JavaScript overridable.
 
 # Issues
 
-(https://github.com/lenconda/overridable/issues)[https://github.com/lenconda/overridable/issues]
+[https://github.com/lenconda/overridable/issues](https://github.com/lenconda/overridable/issues)
 
 # Contribute
 
