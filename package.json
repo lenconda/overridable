@@ -1,0 +1,26 @@
+{
+  "name": "overridable",
+  "version": "0.0.1",
+  "description": "Make JavaScript overridable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "husky": {
+    "pre-commit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenconda/overridable.git"
+  },
+  "author": "lenconda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lenconda/overridable/issues"
+  },
+  "homepage": "https://github.com/lenconda/overridable#readme",
+  "devDependencies": {
+    "eslint-config-alloy": "^3.6.0"
+  }
+}
