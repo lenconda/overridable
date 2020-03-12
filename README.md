@@ -12,7 +12,7 @@ JavaScript does not support overriding when we declare a function since JavaScri
 npm i overridable -S
 ```
 
-### `overridable`
+### `overridable(): Overridable`
 
 Creates overridable object, includes
 
@@ -27,7 +27,7 @@ Creates overridable object, includes
 };
 ```
 
-### `add(fn: Function)`
+### `add(fn: Function): Overridable`
 
 Add a function to overridable object.
 
@@ -35,7 +35,7 @@ Add a function to overridable object.
 overridable().add(() => {});
 ```
 
-### `result()`
+### `result(): Function`
 
 Returns the final function. If you add all the overrides, use this to get the final function.
 
@@ -65,7 +65,7 @@ console.log(foo(1, 2, 3, 4)); // Error
 
 - [ ] Unit test support
 - [ ] ES 2015 support
-- [ ] NPM registry
+- [x] NPM registry
 
 ## Issues
 
